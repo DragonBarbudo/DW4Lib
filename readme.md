@@ -50,3 +50,36 @@ Si se desea tener un contenedor que en todo momento tenga un ancho de 100% se pu
 
 > La clase **.fluid** se puede utilizar con cualquier elemento que se quiera tenga "width: 100%"
 
+
+
+### Columnas
+
+Se trabaja con una rejilla de 12 columnas. Cada elemento puede tener diferentes columnas dependiendo del estado responsivo.
+
+La columna base para Desktop esta conformada por la clase **".c"** seguida del número de columnas del 1 al 12. Si no se añade ninguna otra clase esta funcionará para los 3 estados responsivos.
+
+Las columnas responsivas funcionan como **".ct{col}"** y **".cm{col}"** y deben estar asignadas únicamente cuando ya existe la clase base, de lo contrario no se comportará correctamente.
+
+| Columnas | Clase base (desktop) | Tableta | Móvil |
+| -------- | -------------------- | ------- | ----- |
+| 1        | .c1                  | .ct1    | .cm1  |
+| 2        | .c2                  | .ct2    | .cm2  |
+| 3        | .c3                  | .ct3    | .cm3  |
+| 4        | .c4                  | .ct4    | .cm4  |
+| 5        | .c5                  | .ct5    | .cm5  |
+| 6        | .c6                  | .ct6    | .cm6  |
+| 7        | .c7                  | .ct7    | .cm7  |
+| 8        | .c8                  | .ct8    | .cm8  |
+| 9        | .c9                  | .ct9    | .cm9  |
+| 10       | .c10                 | .ct10   | .cm10 |
+| 11       | .c11                 | .ct11   | .cm11 |
+| 12       | .c12                 | .ct12   | .cm12 |
+
+Ejemplo de un contenedor que mide 6 columnas, en tablet mide 10 y en móvil mide 12:
+
+````
+<div class="container">
+	<div class="c6 ct10 cm12"></div>
+</div>
+````
+
