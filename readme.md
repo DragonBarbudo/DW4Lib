@@ -24,7 +24,9 @@ Para utilizarla se puede descargar el archivo dw4.css o desde RawGit:
 
 Uso:
 
-> <link rel="stylesheet" href=" https://cdn.rawgit.com/DragonBarbudo/DW4Lib/master/dw4.css" />
+```html
+<link rel="stylesheet" href=" https://cdn.rawgit.com/DragonBarbudo/DW4Lib/master/dw4.css" />
+```
 
 
 
@@ -34,8 +36,17 @@ Para que cualquier columna pueda trabajar necesita estar rodeado de un **.contai
 
 El **contenedor** trabaja en las medidas responsive, en estado DESKTOP mide 1200px, en TABLET mide 720px y en MOBILE su ancho es del 100%.
 
+```html
+<div class="container"></div>
+```
+
+
+
 Si se desea tener un contenedor que en todo momento tenga un ancho de 100% se puede utilizar la clase **.fluid** en conjunto con **.container**.
 
+```html
+<div class="container fluid"></div>
+```
 
+> La clase **.fluid** se puede utilizar con cualquier elemento que se quiera tenga "width: 100%"
 
-> <div class="container fluid"></div>
