@@ -83,3 +83,6 @@ Ejemplo de un contenedor que mide 6 columnas, en tablet mide 10 y en móvil mide
 </div>
 ````
 
+#### Clase .c (ajustable)
+
+Cuando se busca una columna que se ajuste automáticamente sin establecer columnas se puede utilizar únicamente la clase **".c"**, que se estirará dependiendo del tamaño disponible dentro del contenedor, es decir que si sólo existe 1 div, éste se estirará para medir las 12 columnas, pero si existen dos divs, ambos con la clase ".c", ambos medirán 6 columnas. Si ya existe un div con 10 columnas (.c10) y se añade otro (.c), éste ocupará las 2 columnas restantes.
