@@ -120,3 +120,31 @@ El **GUTTER** es la separación que existe entre columnas. Si únicamente se uti
 - [Ejemplos de columnas](http://codepen.io/ealbinu/pen/mObmYe)
 - [Ejemplos responsive](http://codepen.io/ealbinu/pen/KNPqgR?editors=1100)
 - [Ejemplo de estructura](http://codepen.io/ealbinu/pen/vyBZVx?editors=1100)
+
+
+
+## Clases auxiliares | Utilidades
+
+Además del manejo de rejillas/columnas la librería incluye algunas clases extra que sirven como utilidades:
+
+| Clase      | Función                                  | Regla de css        |
+| ---------- | ---------------------------------------- | ------------------- |
+| **.tar**   | Alinear texto a la derecha               | text-align:right;   |
+| **.tac**   | Alinear texto al centro                  | text-align:center;  |
+| **.tal**   | Alinear texto a la izquierda             | text-align:left;    |
+| **.nom**   | "No móvil". Oculta el elemento cuando esta en modo "móvil" | display:none;       |
+| **.not**   | "No tablet". Oculta el elemento cuando esta en modo "tablet" | display:none;       |
+| **.nod**   | "No desktop". Oculta el elemento cuando esta en modo "desktop" | display:none;       |
+| **.onlym** | "Sólo en móvil". Sólo visible en modo "móvil". |                     |
+| **.onlyt** | "Sólo en tablet". Sólo visible en modo "tablet". |                     |
+| **.onlyd** | "Sólo en desktop". Sólo visible en modo "desktop". |                     |
+| **.t**     | "TEST". Agrega bordes a las columnas para identificar la medida que abarcan. |                     |
+| **.fluid** | Elemento fluido o con ancho al 100%. Útil para tener contenedores que midan siempre el 100% del sitio o para imagenes que se ajusten a su contenedor. | width: 100%;        |
+| **.mall**  | Margin de 5px. en todos los lados.       | margin:5px;         |
+| **.mt**    | Margin superior de 5px.                  | margin-top:5px;     |
+| **.mt2**   | Margin superior de 10px.                 | margin-top:10px;    |
+| **.mb**    | Margin inferior de 5px.                  | margin-bottom:5px;  |
+| **.mb**    | Margin inferior de 10px.                 | margin-bottom:10px; |
+
+Ejemplos: <http://codepen.io/ealbinu/pen/aBoyqJ>
+
