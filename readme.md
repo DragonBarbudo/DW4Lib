@@ -89,5 +89,5 @@ Cuando se busca una columna que se ajuste automáticamente sin establecer column
 
 
 
-<p data-height="265" data-theme-id="0" data-slug-hash="mObmYe" data-default-tab="html,result" data-user="ealbinu" data-embed-version="2" data-pen-title="DW4.css | Ejemplo de uso" class="codepen"> <a href="http://codepen.io/ealbinu/pen/mObmYe/">DW4.css | Ejemplo de uso</a></p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height='265' scrolling='no' title='DW4.css | Ejemplo de uso' src='//codepen.io/ealbinu/embed/mObmYe/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/ealbinu/pen/mObmYe/'>DW4.css | Ejemplo de uso</a> by Albin Rodriguez (<a href='http://codepen.io/ealbinu'>@ealbinu</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
