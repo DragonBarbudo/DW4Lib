@@ -87,7 +87,34 @@ Ejemplo de un contenedor que mide 6 columnas, en tablet mide 10 y en móvil mide
 
 Cuando se busca una columna que se ajuste automáticamente sin establecer columnas se puede utilizar únicamente la clase **".c"**, que se estirará dependiendo del tamaño disponible dentro del contenedor, es decir que si sólo existe 1 div, éste se estirará para medir las 12 columnas, pero si existen dos divs, ambos con la clase ".c", ambos medirán 6 columnas. Si ya existe un div con 10 columnas (.c10) y se añade otro (.c), éste ocupará las 2 columnas restantes.
 
+## Offsets
+
+Un **offset** sirve para "empujar" un elemento X número de columnas hacia la derecha. Es decir, si se quisiera centrar un elemento de 6 columnas, se tendría que empujar hacia la derecha 3 columnas.
+
+Los offset también trabajan en modo responsivo similar a las columnas, añadiendo la letra **t** y **m** donde se necesite. En el caso de los **offset** se puede recurrir al valor 0 (cero) para anular el offset de otras clases. 
+
+| Offset hacia la derecha | Offset base (desktop) | Tableta | Móvil |
+| :---------------------- | --------------------- | ------- | ----- |
+| 0                       | .o0                   | .ot0    | .om0  |
+| 1                       | .o1                   | .ot1    | .om1  |
+| 2                       | .o2                   | .ot2    | .om2  |
+| 3                       | .o3                   | .ot3    | .om3  |
+| 4                       | .o4                   | .ot4    | .om4  |
+| 5                       | .o5                   | .ot5    | .om5  |
+| 6                       | .o6                   | .ot6    | .om6  |
+| 7                       | .o7                   | .ot7    | .om7  |
+| 8                       | .o8                   | .ot8    | .om8  |
+| 9                       | .o9                   | .ot9    | .om9  |
+| 10                      | .o10                  | .ot10   | .om10 |
+| 11                      | .o11                  | .ot11   | .om11 |
+| 12                      | .o12                  | .ot12   | .om12 |
 
 
-<iframe height='265' scrolling='no' title='DW4.css | Ejemplo de uso' src='//codepen.io/ealbinu/embed/mObmYe/?height=265&theme-id=0&default-tab=html,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/ealbinu/pen/mObmYe/'>DW4.css | Ejemplo de uso</a> by Albin Rodriguez (<a href='http://codepen.io/ealbinu'>@ealbinu</a>) on <a href='http://codepen.io'>CodePen</a>.
-</iframe>
+
+
+
+## Ejemplos en Codepen
+
+- [Ejemplos de columnas](http://codepen.io/ealbinu/pen/mObmYe)
+- [Ejemplos responsive](http://codepen.io/ealbinu/pen/KNPqgR?editors=1100)
+- ​
