@@ -111,10 +111,12 @@ Los offset también trabajan en modo responsivo similar a las columnas, añadien
 
 
 
+## Gutter
 
+El **GUTTER** es la separación que existe entre columnas. Si únicamente se utiliza la clase de la columna todas estarán una seguida de la otra, sin espacio entre cada columna, pero se puede añadir la clase **.g** para agregar esta separación. **Ejemplo**: <http://codepen.io/ealbinu/pen/JbPyjK>
 
 ## Ejemplos en Codepen
 
 - [Ejemplos de columnas](http://codepen.io/ealbinu/pen/mObmYe)
 - [Ejemplos responsive](http://codepen.io/ealbinu/pen/KNPqgR?editors=1100)
-- ​
+- [Ejemplo de estructura](http://codepen.io/ealbinu/pen/vyBZVx?editors=1100)
