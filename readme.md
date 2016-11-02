@@ -86,3 +86,8 @@ Ejemplo de un contenedor que mide 6 columnas, en tablet mide 10 y en móvil mide
 #### Clase .c (ajustable)
 
 Cuando se busca una columna que se ajuste automáticamente sin establecer columnas se puede utilizar únicamente la clase **".c"**, que se estirará dependiendo del tamaño disponible dentro del contenedor, es decir que si sólo existe 1 div, éste se estirará para medir las 12 columnas, pero si existen dos divs, ambos con la clase ".c", ambos medirán 6 columnas. Si ya existe un div con 10 columnas (.c10) y se añade otro (.c), éste ocupará las 2 columnas restantes.
+
+
+
+<p data-height="265" data-theme-id="0" data-slug-hash="mObmYe" data-default-tab="html,result" data-user="ealbinu" data-embed-version="2" data-pen-title="DW4.css | Ejemplo de uso" class="codepen"> <a href="http://codepen.io/ealbinu/pen/mObmYe/">DW4.css | Ejemplo de uso</a></p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
