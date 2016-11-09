@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #333;
+}
+.logotipo{
+    padding: 30px;
+}
+.logotipo img{ max-height: 80px;}
+.menu{
+    background: #000;
+}
+.menu ul{
+    list-style: none;
+}
+.menu a{
+    display: block;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+.menu a .fa{
+    color:#aaa;
+    font-size: .8em;
+}
+
+@media (max-width:720px){
+    .menu a{
+        background: #444;
+        border-bottom: 2px solid #fff;
+    }
+    .menu a .fa{
+        display: block;
+        font-size: 2em;
+        margin: 4px;
+    }
+}
+
