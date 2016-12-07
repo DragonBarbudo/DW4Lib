@@ -118,9 +118,18 @@ El **GUTTER** es la separación que existe entre columnas. Si únicamente se uti
 ## Ejemplos en Codepen
 
 - [Ejemplos de columnas](http://codepen.io/ealbinu/pen/mObmYe)
+
 - [Ejemplos responsive](http://codepen.io/ealbinu/pen/KNPqgR?editors=1100)
+
 - [Ejemplo de estructura](http://codepen.io/ealbinu/pen/vyBZVx?editors=1100)
+
 - [Ejemplos menu + media queries](http://codepen.io/ealbinu/pen/jVbxNm?editors=1100#0)
+
+- [Módulo Imagen+Texto](http://codepen.io/ealbinu/pen/VmxNOz?editors=1100)
+
+- [1 principal + 3 modulos](http://codepen.io/ealbinu/pen/VmxJBZ?editors=1100)
+
+  ​
 
 
 
